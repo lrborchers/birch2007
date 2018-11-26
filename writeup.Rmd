@@ -123,7 +123,7 @@ pilotA= data.frame(
                 15, 0, 0, 85, #kp
                 70, 0, 0, 30,
                 10, 0, 0, 90),
-  subject_id = c(1,1,1,1,
+  subject_id=c(1,1,1,1,
                  2,2,2,2,
                  3,3,3,3,
                  4,4,4,4,
@@ -152,7 +152,7 @@ pilotA= data.frame(
            "female","female","female","female",
            "female","female","female","female",
            "male", "male", "male", "male", 
-           "female","female","female","female"),
+           "female","female","female","female"))
 
 #### Data exclusion / filtering
 filtered_pilotA = pilotA %>% 
@@ -162,17 +162,17 @@ filtered_pilotA = pilotA %>%
 
 #### Prepare data for analysis - create columns etc.
 
-pilotA
+View(pilotA)
 ```
 
-### Confirmatory analysis
 
 ```{r}
+### Confirmatory analysis
 all_of_the_ignorance_red_numbers = (filtered_pilotA %>%
   filter(cond=="ignorance") %>% 
   filter(container=="red"))$probability
 
-all_of_the_knowledge_red_plausible_numbers = (filtered_birch_replication %>%
+all_of_the_knowledge_red_plausible_numbers = (filtered_pilotA %>%
   filter(cond=="knowledge_plausible") %>% 
   filter(container=="red"))$probability
 
@@ -181,7 +181,7 @@ t.test(all_of_the_ignorance_red_numbers, all_of_the_knowledge_red_plausible_numb
 ```
 
 ```{r}
-main_hypothesis_data = filtered_birch_replication %>%
+main_hypothesis_data = filtered_pilotA %>%
   filter(container == "red") %>% # grab only red probabilities
   spread(cond, probability) %>% # make two columns, one for each condition
   select(ignorance, knowledge_plausible)
@@ -189,6 +189,132 @@ with(main_hypothesis_data,
      t.test(ignorance, knowledge_plausible, alternative = "two.sided"))
 ```
 
+
+```{r}
+# PilotB N=9 MTurk workers
+
+###Data Preparation
+
+####Load Relevant Libraries and Functions
+library(tidyverse)
+
+####Import data
+
+pilotB= data.frame(
+  cond=c("knowledge_plausible","knowledge_plausible","knowledge_plausible","knowledge_plausible", #1
+         "ignorance","ignorance","ignorance","ignorance", #2
+         "knowledge_plausible","knowledge_plausible","knowledge_plausible","knowledge_plausible", #3
+         "ignorance","ignorance","ignorance","ignorance", #4
+         "ignorance","ignorance","ignorance","ignorance", #5
+         "knowledge_plausible","knowledge_plausible","knowledge_plausible","knowledge_plausible", #6
+         "knowledge_plausible","knowledge_plausible","knowledge_plausible","knowledge_plausible", #7
+         "ignorance","ignorance","ignorance","ignorance",#8
+         "knowledge_plausible","knowledge_plausible","knowledge_plausible","knowledge_plausible"), #9
+       
+  age=c(37, 37, 37, 37,
+        36, 36, 36, 36,
+        31, 31, 31, 31,
+        34, 34, 34, 34, 
+        34, 34, 34, 34, 
+        31, 31, 31, 31,
+        24, 24, 24, 24,
+        29, 29, 29, 29, 
+        30, 30, 30, 30), 
+  
+  highschool=c(T, T, T, T,
+               T, T, T, T,
+               T, T, T, T,
+               T, T, T, T,
+               T, T, T, T,
+               T, T, T, T,
+               T, T, T, T,
+               T, T, T, T, 
+               T, T, T, T),
+  
+  gender=c("female","female","female","female",
+           "female","female","female","female",
+           "female","female","female","female",
+           "female","female","female","female",
+           "male","male","male","male", 
+           "male","male","male","male",
+           "female","female","female","female",
+           "female","female","female","female", 
+           "male","male","male","male"),
+  
+  colorblind=c(F, F, F, F,
+               F, F, F, F,
+               F, F, F, F,
+               F, F, F, F,
+               F, F, F, F,
+               F, F, F, F,
+               F, F, F, F,
+               F, F, F, F, 
+               F, F, F, F), 
+  
+  container=c("red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue",
+              "red","green","purple","blue"), 
+  probability=c(70, 5, 0, 25, #kp
+                80, 5, 10, 5, #ig
+                50, 0, 25, 25, #kp
+                40, 0, 0, 60, #ig
+                0, 0, 0, 100, #ig
+                30, 10, 10, 50, #kp
+                0, 0, 0, 100, #kp
+                20, 35, 25, 20, #ig
+                10, 0, 0, 90), #kp
+  subject_id = c(1,1,1,1,
+                 2,2,2,2,
+                 3,3,3,3,
+                 4,4,4,4,
+                 5,5,5,5,
+                 6,6,6,6,
+                 7,7,7,7,
+                 8,8,8,8,
+                 9,9,9,9))
+View(pilotB)
+
+#### Data exclusion / filtering
+filtered_pilotB = pilotB %>% 
+  filter(highschool==T) %>%
+  filter(colorblind==F)
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+```{r}
+all_of_the_ignorance_red_numbers = (filtered_pilotB %>%
+  filter(cond=="ignorance") %>% 
+  filter(container=="red"))$probability
+
+all_of_the_knowledge_red_plausible_numbers = (filtered_pilotB %>%
+  filter(cond=="knowledge_plausible") %>% 
+  filter(container=="red"))$probability
+
+t.test(all_of_the_ignorance_red_numbers, all_of_the_knowledge_red_plausible_numbers,
+       alternative = "two.sided")
+```
+
+```{r}
+main_hypothesis_data = filtered_pilotB %>%
+  filter(container == "red") %>% # grab only red probabilities
+  spread(cond, probability) %>% # make two columns, one for each condition
+  select(ignorance, knowledge_plausible)
+with(main_hypothesis_data,
+     t.test(ignorance, knowledge_plausible, alternative = "two.sided"))
+```
+
+### Pilot B via MTurk
+
+Although the sample size for pilot B was small (n = 9), the main finding from Birch and Bloom's The Curse of Knowledge did not replicate. There was no statistically significant difference between likelihoods reported for the red container in the knowledge-plausible condition compared to the ignorance condition (t = 0.09, p = 0.932). On average, the sample recruited via MTurk (age = 31.8) was older than the college aged sample recruited by Birch and Bloom. Further, one third of the MTurk sample was male while 45% of Birch and Bloom's sample was male. However, all participants completed high school. Findings may change with the full sample (N = 80). I also learned the average participant took 78.6 seconds to complete the survey. Therefore, I will be able to reduce the time required for the survey and either i) recruit more participants or ii) share the extra funds with the class. 
 
 *Side-by-side graph with original graph is ideal here*
 
