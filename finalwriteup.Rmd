@@ -14,11 +14,11 @@ output:
 
 ##Introduction
 
-In The Curse of Knowledge in Reasoning About False Beliefs, Birch and Bloom investigated how prior knowledge of an outcome can impact bias toward the plausibility of an event. This study was motivated by prior work conducted by the authors assessing 3 to 4-year-olds’ increased susceptibility toward a cognitive bias, coined the curse of knowledge, compared to 5-year-olds. The authors were interested in investigating whether this bias was also present in older adults. Birch and Bloom specifically wanted to test whether adults would show a deficit in reasoning when they had specific knowledge about the outcome of an event. 
+In The Curse of Knowledge in Reasoning About False Beliefs, Birch and Bloom investigated how prior knowledge of an outcome can impact bias toward the plausibility of an event (Birch & Bloom, 2007). This study was motivated by prior work conducted by the authors assessing 3 to 4-year-olds’ increased susceptibility toward a cognitive bias, coined the curse of knowledge, compared to 5-year-olds. The authors were interested in investigating whether this bias was also present in older adults. Birch and Bloom specifically wanted to test whether adults would show a deficit in reasoning when they had specific knowledge about the outcome of an event. 
 
-This study is relevant to my work in Affective Science because it demonstrated that knowledge of an outcome can potentially impact perceived likelihood of an event. Given the increasing body of literature indicating that family risk is one of the strongest predictors of depression, I am interested in assessing how likely adolescents with a family history of depression think they will develop the disorder themselves. Further, I want to investigate if adolescents with depression view the severity of their symptoms and length of the episode in accordance with the course of a parents’ depressive episode. 
+This study is relevant to my work in Affective Science because it suggested that knowledge of an outcome can potentially impact perceived likelihood of an event. Given the increasing body of literature indicating that family risk is one of the strongest predictors of depression, I am interested in assessing how likely adolescents with a family history of depression think they will develop the disorder themselves. Further, I want to investigate if adolescents with depression view the severity of their symptoms and length of the episode in accordance with the course of a parents’ depressive episode. 
 
-In order to test their hypothesis, Birch and Bloom administered a displacement task given to children with three modifications to make the task more challenging. All participants (N=155, 69 male) were told that a young girl, Vicki, was playing the violin, put her instrument into a blue container, and left the room. Then, they were told that her sister entered the room, moved the violin, and shuffled the containers. Participants were asked to assign the probability that Vicki would look in each container once she reentered the room. There were three manipulations: knowledge-plausible: participants were told the object was moved to a different container but the physical location remained constant; knowledge-implausible: participants were told that the object was moved and the physical location changed; and the ignorance condition: participants were not given any additional information. Birch and Bloom found that participants who were in the knowledge-plausible condition showed this curse of knowledge effect by assigning higher probabilities to the location in which the sister moved the object (same physical location where Vicki left her violin but different container). Further, the knowledge plausible condition assigned lower probabilities to the container in which the object was originally placed. The knowledge implausible and ignorance conditions showed no statistically significant differences. The authors deduced that knowledge was only a “curse” when participants had a reasonable explanation for why Vicki might adjust her beliefs in accordance with the information given. 
+In order to test their hypothesis, Birch and Bloom administered a displacement task given to children with three modifications to make the task more challenging. All participants (N=155, 69 male) were told that a young girl, Vicki, was playing the violin, put her instrument into a blue container, and left the room. Then, they were told that her sister entered the room, moved the violin, and shuffled the containers. Participants were asked to assign the probability that Vicki would look in each container once she reentered the room. There were three manipulations: knowledge-plausible: participants were told the object was moved to a different container but the physical location remained constant; knowledge-implausible: participants were told that the object was moved and the physical location changed; and the ignorance condition: participants were not given any additional information. Birch and Bloom found that participants who were in the knowledge-plausible condition showed this curse of knowledge effect by assigning higher probabilities to the location in which the sister moved the object (same physical location where Vicki left her violin, but different container). Further, the knowledge-plausible condition assigned lower probabilities to the container in which the object was originally placed. The knowledge-implausible and ignorance conditions showed no statistically significant differences. The authors deduced that knowledge was only a “curse” when participants had a reasonable explanation for why Vicki might adjust her beliefs in accordance with the information given. 
 
 In my replication study, participants recruited via MTurk will be randomly assigned one of two conditions. I will not be including a knowledge-implausible condition because the authors did not report significant differences between this group and the ignorance condition. Ideally, I will recruit approximately 50% males and 50% females and there will be an even number of participants in each condition. One challenge with this experiment is that participants are asked to write down their probabilities in a text box. Therefore, it is possible that participants will make mathematical errors and that the sum of all containers will not add up to 100%. Further, the original sample solely consisted of college students attending Yale University. Therefore, there will likely be a difference in education between the original group and the sample recruited via MTurk. An additional challenge is that the original study was administered in person and not online so there could be some confounding variables (e.g. visual quality of the stimuli). Finally, while I have access to the figure, it has relatively poor resolution and is black and white with colored labels. I will need to adapt the current image in order to present the stimuli in a similar manner as the original administration. 
 
@@ -26,7 +26,7 @@ In my replication study, participants recruited via MTurk will be randomly assig
 
 ###Power Analysis
 
-Approximately twenty-four to forty participants are required for each condition to have sufficient power. I would need 24 participants per condition to achieve 80% power, 32 participants per condition to achieve 90% power, and 40 participants per condition to achieve 95% power. Therefore, I am going to recruit 40 participants per condition (N=80) and will be powered to detect small effects. I will only recruit participants for the ignorance and knowledge-plausible conditions since the authors reported their main findings between these two groups. Further, no significant differences were found between the ignorance and knowledge-implausible conditions. The primary result was that participants in the ignorance condition reported lower probabilities for the red box than the knowledge-plausible condition. The effect size of this t-test was 0.472. I anticipate that obtaining approximately 40 participants per condition is feasible. The experiment should only last 5 minutes and I will only recruit participants for the knowledge-plausible and ignorance conditions. The U.S. minimum wage is 7 dollars and 25 cents per hour. Therefore, each participant should be compensated 60 cents for the experiment, thus allowing me to recruit a total of 80 participants.  
+Approximately twenty-four to forty participants are required for each condition to have sufficient power. I would need 24 participants per condition to achieve 80% power, 32 participants per condition to achieve 90% power, and 40 participants per condition to achieve 95% power. Therefore, I am going to recruit 40 participants per condition (N = 80) and will be powered to detect small effects. I will only recruit participants for the ignorance and knowledge-plausible conditions since the authors reported their main findings between these two groups. Further, no significant differences were found between the ignorance and knowledge-implausible conditions. The primary result was that participants in the ignorance condition reported lower probabilities for the red box than the knowledge-plausible condition. The effect size of this t-test was 0.472. I anticipate that obtaining approximately 40 participants per condition is feasible. The experiment should only last 5 minutes and I will only recruit participants for the knowledge-plausible and ignorance conditions. The U.S. minimum wage is 7 dollars and 25 cents per hour. Therefore, each participant will be compensated 60 cents for the experiment, thus allowing me to recruit a total of 80 participants.  
 
 ###Planned Sample
 
@@ -38,7 +38,7 @@ This study requires a colored figure depicting Vicki, her violin, a sofa, and fo
 “This is Vicki. She finishes playing her violin and puts it in the blue container. Then she goes outside to play. While Vicki is outside playing, her sister, Denise, moves the violin
 [ignorance] to another container. 
 [knowledge-plausible] to the red container (occupying original location). 
-[knowledge-implausible] to the purple container (not implementing this manipulation).
+[knowledge-implausible] to the purple container (not implementing this manipulation, but occupying a random physical space).
 Then Denise rearranges the containers in the room until the room looks like the picture below. When Vicki returns, she wants to play her violin. What are the chances Vicki will first look for her violin in each of the above containers? Write your answers in percentages in the spaces provided under each container”. 
 All participants will receive the same figure with modifications to the text according to their condition (described above). 
 
@@ -67,16 +67,18 @@ https://workersandbox.mturk.com/projects/3QXBZN23LGZPBXBY73377T4YGMRXN5/tasks/30
 ### Github link
 https://github.com/lrborchers/birch2007.git
 
+### OSF Preregistration
+https://osf.io/32zyn/register/564d31db8c5e4a7c9694b2c0
+
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
+  N/A.
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+  We recruited N = 80 (40 per condition) participants via MTurk. Prior to data collection, we specified that we would exclude participants who were colorblind and who did not complete high school. We excluded, but compensated, a total of seven participants (colorblind: n = 6; did not complete high school: n = 1). Therefore, our final sample consisted of seventy-three participants (Age M = 33.44, SD = 8.78; 46 male; ignorance condition: n = 38; knowledge-plausible condition n = 35). 
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
-
+  None.
 
 ##Results
 
@@ -86,48 +88,187 @@ You can comment this section out prior to final report with data collection.
 Data preparation following the analysis plan.
 	
 ```{r include=F}
+# Loading necessary libraries
 library(tidyverse)
 library(ggthemes)
-pilotBtst <- read_csv("~/Desktop/pilotBtst.csv")
-pilotBtst <- pilotBtst[2:length(pilotBtst), ] # get rid of redundant name row
+library(ggplot2)
+library(readxl)
+# Importing Qualtrics data collected via MTurk
+borchers_replication_all_participants <- read_xls("borchers_replication_anonymized.xls")
 ```
-
 
 ```{r}
-# Importing data from Qualtrics 
-pilotBtst_tidy <- pilotBtst %>%
-  gather (measurement, probability_pct, red_kp:blue_ig) %>%
+# Tidying data
+borchers_replication_tidy <- borchers_replication_all_participants %>%
+  mutate(subid = row.names(.)) %>%
+  gather (measurement, probability_pct, red_knowledgeplausible:blue_ignorance) %>%
   filter(!is.na(probability_pct)) %>%
-  separate(measurement, c("color", "condition"), sep="_") %>%
-  mutate(condition = factor(condition, levels=c("kp", "ig"), labels=c("Knowledge-Plausible", "Ignorance")),
-         probability_pct = as.numeric(probability_pct))
-pilotBtst_tidy %>% filter(color == "red")
+  separate(measurement, c("color", "condition")) 
+
+# Eligible participants 
+borchers_replication_filtered_data = borchers_replication_tidy %>%
+  filter(high_school=="Yes",
+         color_blind=="No",
+         consent=="I agree") #Consenting to the study
+
+# Spreading data (by color containers)
+borchers_replication_final_data = borchers_replication_filtered_data %>%
+  spread(color, probability_pct)
 ```
 
+###Descriptive Statistics
+```{r}
+# Demographics of all participants recruited via MTurk before exclusion criterion were applied
+
+borchers_replication_all_participants %>%
+group_by(color_blind) %>%
+summarise(color_blind_count=n()) # n = 74 not colorblind; n = 6 colorblind (excluded)
+
+borchers_replication_all_participants %>%
+group_by(high_school) %>%
+summarise(high_school_count=n()) # n = 79 went to high school; n = 1 did not go to high school (excluded)
+
+# Eligible participants included in final analyses descriptive statistics 
+
+mean(borchers_replication_final_data$age) # Mean age = 33.44; sd = 8.78
+sd(borchers_replication_final_data$age)
+
+borchers_replication_final_data %>%
+group_by(gender) %>%
+summarise(gender_count=n()) # Participant's gender who met inclusion criteria n = 46 male; n = 27 female
+
+borchers_replication_final_data %>% # Number of participants in each condition. n = 38 ignorance condition; n = 35 knowledge-plausible condition
+group_by(condition) %>%
+summarise(condition_count=n())
+```
 
 ### Confirmatory analysis
 ```{r}
-red_only_filtered_data = pilotBtst_tidy %>%
-  filter(color == "red",
-         high_school=="Yes",
-         color_blind=="No",
-         Q20=="I agree") #Consenting to the study
-
-t.test(probability_pct ~ condition, data=red_only_data)
+t.test(red ~ condition, data=borchers_replication_final_data) # Target replication
 ```
 
 *Side-by-side graph with original graph is ideal here*
 
+```{r}
+birch_bloom_data= data.frame(
+  condition=c("Ignorance","Ignorance","Ignorance","Ignorance",
+         "Knowledge-Plausible","Knowledge-Plausible","Knowledge-Plausible","Knowledge-Plausible"
+         ),
+  
+  container=c("blue",
+              "red",
+              "purple",
+              "green"
+              ), 
+  probability_percent =c(71, 23, 2, 3, #ignorance mean
+                59, 34, 3, 4 #knowledge-plausible mean
+                ),
+  standard_deviation = c(26, 22, 5, 7, #ignorance_standarddeviation
+                        27, 25, 5, 7), #knowledge-plausible_standarddeviation
+  n = c(52, 52, 52, 52,
+        52, 52, 52, 52)
+                 ) %>%
+  mutate(standard_error = standard_deviation / sqrt(n))
+
+filtered_birch_bloom_data = birch_bloom_data %>%
+  filter(container=="red")
+
+# Birch and Bloom bar graph
+ggplot(filtered_birch_bloom_data, aes(x=condition, y=probability_percent, fill=condition)) +
+  geom_bar(position="dodge", stat="identity") +
+ggtitle("Birch & Bloom Data") +
+theme(plot.title=element_text(hjust=.5)) +
+geom_errorbar(aes(ymin=probability_percent - standard_error, ymax = probability_percent + standard_error), width=.2) +
+ylim(min(0), max(40)) +
+xlab("Condition") +
+ylab("Percent of Red")
+```
+```{r}
+borchers_replication_filtered_data %>%
+  filter(color=="red") %>%
+  ggplot() +
+  aes(x=condition, y=probability_pct, fill=condition) +
+  stat_summary(geom="bar") +
+  stat_summary(geom="errorbar", width =0.2, fun.data=mean_se) +
+  xlab("Condition") +
+  ylab("Percent of Red") +
+  ggtitle("Borchers Replication Data") +
+  scale_color_hue(labels= c("Ignorance", "Knowledge-plausible")) +
+  theme(plot.title=element_text(hjust=.5))
+```
+
+
 ###Exploratory analyses
 
-Any follow-up analyses desired (not required).  
+```{r}
+t.test(blue ~ condition, data=borchers_replication_final_data)
+t.test(purple ~ condition, data=borchers_replication_final_data)
+t.test(green ~ condition, data=borchers_replication_final_data)
+```
+
+
+```{r}
+# Calculating Standard Deviation ignorance condition containers
+condition_ignorance = borchers_replication_final_data %>%
+  filter(condition=="ignorance")
+
+sd(condition_ignorance$blue)
+sd(condition_ignorance$red)
+sd(condition_ignorance$purple)
+sd(condition_ignorance$green)
+
+# Calculating Standard Deviation knowledge-plausible condition containers
+condition_knowledge_plausible = borchers_replication_final_data %>%
+  filter(condition=="knowledgeplausible")
+
+sd(condition_knowledge_plausible$blue)
+sd(condition_knowledge_plausible$red)
+sd(condition_knowledge_plausible$purple)
+sd(condition_knowledge_plausible$green)
+```
+
+```{r}
+# Attention check. Excluding participants who reported a total probability percent greater than 100%
+borchers_replication_final_data <- transform(borchers_replication_final_data,
+total_probability_percent = blue + red + purple + green)
+
+borchers_replication_100 = borchers_replication_final_data %>%
+  filter(total_probability_percent==100) 
+
+# Conducting t-tests excluding participants who reported more than 100% probability for all containers
+# Pattern of results does not change
+t.test(blue ~ condition, data=borchers_replication_100)
+t.test(red ~ condition, data=borchers_replication_100)
+t.test(purple ~ condition, data=borchers_replication_100)
+t.test(green ~ condition, data=borchers_replication_100)
+
+# Attention check - Calculating Standard Deviation ignorance condition containers
+condition_ignorance_attention_check = borchers_replication_100 %>%
+  filter(condition=="ignorance")
+
+sd(condition_ignorance_attention_check$blue)
+sd(condition_ignorance_attention_check$red)
+sd(condition_ignorance_attention_check$purple)
+sd(condition_ignorance_attention_check$green)
+
+# Attention check - Calculating Standard Deviation knowledge-plausible condition containers
+condition_knowledge_plausible_attention_check = borchers_replication_100 %>%
+  filter(condition=="knowledgeplausible")
+
+sd(condition_knowledge_plausible_attention_check$blue)
+sd(condition_knowledge_plausible_attention_check$red)
+sd(condition_knowledge_plausible_attention_check$purple)
+sd(condition_knowledge_plausible_attention_check$green)
+```
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+My replication attempt of the Curse of Knowledge in Reasoning About False Beliefs originally conducted by Susan Birch and Paul Bloom failed to replicate (Birch & Bloom, 2007). The main finding reported by the authors was that participants in the ignorance condition reported lower probabilities that Vicki would first look in the red container compared to participants in the knowledge-plausible condition. In my replication, there was no statistically significant difference between the ignorance (M = 30.74, SD = 29.35) and the knowledge-plausible (M = 34.83, SD = 24.33) conditions in their reported probability regarding the red container, t = -0.65, df = 70.25, p = .518. Regarding the knowledge-plausible condition, I found nearly the same average probability that Vicki would first look in the red container (34%) as Birch & Bloom (34%). However, in my sample, the ignorance condition reported higher probabilities that Vicki would first look in the red container (30%) compared to the original article (23%), therefore explaining the non-significant findings.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+The original authors also reported that participants in the ignorance condition reported higher probabilities that Vicki would first look in the blue container compared to participants in the knowledge-plausible condition. Exploratory analyses revealed that the authors' secondary finding that participants in the ignorance condition reported higher probabilities for the blue container also failed to replicate (ignorance: M = 56.53, SD = 36.11; knowledge-plausible M = 49.69, SD = 30.84; t = 0.87, df = 70.61, p = .386). As previously stated, I did not include the knowledge-implausible condition because the authors reported that there were no statistically significant differences between this condition compared to the ignorance condition. I conducted additional t-tests comparing the ignorance condition to the knowledge-plausible condition for the purple (p = .851) and green containers (p = .827). Similar to Birch & Bloom, I did not observe statistically significant differences between the conditions' reported probabilities. It is important to note, however, that one cannot confirm a null finding. I noticed that participants in my sample reported higher probabilities for the purple (ignorance: 12%; knowledge-plausible: 12%) and green (ignorance: 9%; knowledge-plausible: 10%) containers compared to Birch & Bloom (purple - ignorance: 2%; knowledge-plausible: 3%; green - ignorance: 3%; knowledge-plausible: 4%). I conducted an attention check excluding participants who reported probabilities greater than 100%. The pattern of results persisted. 
+
+There are notable differences across the two samples that should be addressed. First, the original authors' sample consisted of 45% men, whereas my sample consisted of 63% men. While I don't speculate that gender would impact reported probabilities, the difference in the proportion of men could be an important factor. Further, my sample was approximately 33 years old, while the original participants were students enrolled in an introductory psychology course at Yale University. Therefore, there were likely significant differences in the age of the two samples. Third, while I excluded participants who did not attend high school, there is a potential difference in educational attainment. Finally, it's important to highlight the fact that my survey was conducted online via MTurk and not in person. It is possible that this medium may have impacted results. While I think it is important to speculate potential confounding variables across studies, I do not think any of these differences led to the non-significant findings. If an effect is truly robust, it should be able to withstand small differences in biological sex, age, educational attainment, and how the survey was distributed. The first author did not respond to my query asking for feedback on my paradigm, however the original figure was provided in their article. Therefore, I conclude that my survey had high fidelity to the original survey in its design.
